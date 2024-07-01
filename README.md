@@ -19,7 +19,7 @@ webpack html plugin 扩展插件,用于在多页面工程中页面index.html分�
 # usage
 ```js
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const HtmlWebpackResolveAssetsPlugin = require("html-webpack-relative-assets-plugin");
+const HtmlWebpackRelativeAssetsPlugin = require("html-webpack-relative-assets-plugin");
 const sourceDir = 'src/pages'
 const chunks = []
 module.exports = {
@@ -48,7 +48,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin(),
-    new HtmlWebpackResolveAssetsPlugin()
+    new HtmlWebpackRelativeAssetsPlugin()
     ],
 };
 
