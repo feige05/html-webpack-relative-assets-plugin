@@ -1,0 +1,26 @@
+{
+  "name": "html-webpack-relative-assets-plugin",
+  "version": "1.0.0",
+  "description": "webpack html plugin 扩展插件,用于在多页面工程中页面index.html分文件夹存放时处理入口js文件路径",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feige05/html-webpack-relative-assets-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "html",
+    "plugin",
+    "relative",
+    "assets"
+  ],
+  "author": "hufei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feige05/html-webpack-relative-assets-plugin/issues"
+  },
+  "homepage": "https://github.com/feige05/html-webpack-relative-assets-plugin#readme"
+}
